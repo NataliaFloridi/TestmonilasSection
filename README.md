@@ -5,10 +5,11 @@ Improve my coding skills by building a Testmonilas Section.
 ## What is the project?
 
 Create a testmonilas section. Using HTML, SASS, CSS and Bootstrap.
+When you hover the cursor the colors change.
 
 ### Screenshot
 
-![]()
+![Screenshot Testmonial Section](https://github.com/NataliaFloridi/TestmonilasSection/blob/main/images/printscreen.jpg)
 
 ### Links
 
