@@ -37,6 +37,12 @@ body .container .row .quote .card {
   padding: 25px 20px;
 }
 
+@media screen and (max-width: 600px) {
+  body .container .row .quote .card {
+    opacity: 100%;
+  }
+}
+
 body .container .row .quote .card:hover {
   cursor: pointer;
   opacity: 100%;

@@ -17,11 +17,15 @@ body{
                     margin-top: 10px;
                     opacity: 30%;
                     padding: 25px 20px;
+                    @media screen and (max-width: 600px){
+                        opacity: 100%;
+                    }
 
                     &:hover{
                         cursor: pointer;
                         opacity: 100%;
                         transition:.4s ease-in-out;
+                       
                     }
         
                     &.purple {
