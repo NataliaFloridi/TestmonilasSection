@@ -19,8 +19,9 @@ body{
                     padding: 25px 20px;
 
                     &:hover{
+                        cursor: pointer;
                         opacity: 100%;
-                        transition: .3s ease-in-out;
+                        transition:.4s ease-in-out;
                     }
         
                     &.purple {

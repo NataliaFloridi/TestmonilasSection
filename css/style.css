@@ -38,8 +38,9 @@ body .container .row .quote .card {
 }
 
 body .container .row .quote .card:hover {
+  cursor: pointer;
   opacity: 100%;
-  transition: .3s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 body .container .row .quote .card.purple {
