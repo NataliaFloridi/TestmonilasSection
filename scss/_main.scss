@@ -1,0 +1,81 @@
+body{
+    background-color: $neutral-color-2;
+
+    .container {
+        max-width: 960px;
+        
+        .row{
+            margin: 0 auto;
+        
+            .quote {
+                align-items: stretch;
+                display: flex;
+                padding: 12px;
+                
+                .card {
+                    border-radius: 8px;
+                    margin-top: 10px;
+                    opacity: 30%;
+                    padding: 25px 20px;
+
+                    &:hover{
+                        opacity: 100%;
+                        transition: .3s ease-in-out;
+                    }
+        
+                    &.purple {
+                        background: $main-color-1;
+                        color: $neutral-color-2;
+                       
+                    }
+            
+                    &.gray {
+                        background: $main-color-2;
+                        color: $neutral-color-2;
+                    }
+            
+                    &.white{
+                        background: $main-color-4;
+                    }
+            
+                    &.black{
+                        background: $main-color-3;
+                        color: $neutral-color-2;
+                    }
+            
+                    .header{
+                        align-items: center;
+                        display: flex;
+                        margin-bottom: 20px;
+            
+                        img{
+                            border: 2px solid $neutral-color-1;
+                            border-radius:50%;
+                            margin-right: 20px;
+                            width: 40px;
+                        }
+            
+                        h2{ 
+                            @include style-1(13600);
+                        }
+            
+                        p{
+                            @include style-1(13500);
+                            opacity: 50%;
+                        }
+                    }
+            
+                    h3{
+                        @include style-1(16);
+                        margin-bottom: 15px;
+                    }
+            
+                    q{  
+                        @include style-1(13500);
+                        opacity: 70%;
+                    }
+                } 
+            }
+        }
+    }
+}
